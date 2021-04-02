@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap" rel="stylesheet">
+
+	<title>Login Page 😁</title>
+
+	<script>
+		function checkpassword(){
+		var password = document.getElementById("passwordbox");
+		var passwordText = password.value;
+		if(passwordText == "@1265"){
+			return true;
+		}
+		else{
+			alert("Access Denied-You have entered the wrong password.");
+			return false;
+		}
+	}
+	
+
+
+	</script>
+
+</head>
+
+<style>
+		body{
+			background: #706fd3;
+	}
+</style>
+
+<body>
+
+	<p style="font-size:50px; color: white; font-family: 'Architects Daughter', sans-serif;"> Welcome! 😃</p>
+	<p style="font-size:20px; color: white; font-family: 'Architects Daughter', sans-serif;">Please enter the password to view the following site.</p>
+
+	<p style="font-size:20px; color: white; font-family: 'Architects Daughter', sans-serif;">Password: <input id="passwordbox" type="password"></p>
+
+	<p style="font-size:20px; color: white; font-family: 'Architects Daughter', sans-serif;"><a href="Zoe.html" onclick="return  checkpassword();">Click here to submit password and view the site! </a></p>
+
+</body>
+</html>
